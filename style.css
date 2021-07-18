@@ -20,6 +20,7 @@ hr {
     padding: 0rem 1rem;
     border: 1px solid #818CF8;
     border-radius: 1.5rem;
+    box-sizing: border-box;
 }
 
 .container-center {
@@ -35,8 +36,6 @@ hr {
 .Link {
     text-decoration: none;
     padding: 0.5rem 1rem;
-    /* margin-top: 1rem;
-    margin-bottom: 1rem; */
 }
 
 .link-primary {
@@ -155,5 +154,5 @@ hr {
 }
 
 .margin-btn {
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
