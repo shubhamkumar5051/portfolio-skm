@@ -42,6 +42,7 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    padding: 0.8rem;
 
 }
 
@@ -49,6 +50,21 @@ hr {
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
     color: var(--primary-color);
+    padding: 0.8rem;
+    margin-left: 5px;
+
+}
+.link-secondary:hover{
+    padding: 0.85rem;
+    color: black;
+    font-weight: bold;
+}
+
+.link-primary:hover {
+    cursor: pointer;
+    background-color: #5665f1;
+    font-weight: bold;
+    padding: 0.85rem;
 
 }
 
@@ -77,8 +93,9 @@ hr {
 }
 
 .navigation .nav-brand {
-    font-weight: bold;
-    font-size: 1.2rem;
+    font-weight: bolder;
+    font-size: 2rem;
+
 }
 
 .navigation .nav-pills {
@@ -100,8 +117,8 @@ hr {
     display: block;
     margin: auto;
 }
-.hero .hero-blog-img
-{
+
+.hero .hero-blog-img {
     max-width: 450px;
     display: block;
     margin: auto;
@@ -149,9 +166,18 @@ hr {
     color: white;
 }
 
+.footer ul li :hover {
+    color: #000003;
+    cursor: pointer;
+    background-color: #4555e9;
+    border-radius: 1rem;
+    font-weight: bolder;
+
+}
+
 .footer .footer-header {
     font-weight: bolder;
-    font-size: larger;
+    font-size: x-large;
 }
 
 .showcase-list {
@@ -161,4 +187,50 @@ hr {
 
 .margin-btn {
     margin-bottom: 2.5rem;
+}
+
+/*technology */
+
+.techFieldOuter {
+
+    border: 3px solid var(--primary-color);
+    border-bottom-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    padding: 2rem;
+}
+
+.techFieldInner {
+    list-style: none;
+    padding: 8px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.techFieldInner {
+    background-color: var(--off-white);
+}
+
+.techFieldInner:nth-child(odd) {
+
+    background-color: var(--primary-color);
+}
+
+.techFieldInner:hover {
+    background-color: #caddf3;
+    cursor: pointer;
+}
+
+.techFieldInner:nth-child(odd):hover {
+    background-color: #606de0;
+    cursor: pointer;
+}
+
+h3 {
+    font-size: xx-large;
+}
+
+.para_project {
+    font-size: 1.3rem;
+    font-weight: normal;
 }

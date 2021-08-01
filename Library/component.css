@@ -68,8 +68,9 @@ hr {
 }
 
 .navigation .nav-brand {
-    font-weight: bold;
-    font-size: 1.2rem;
+    font-weight: bolder;
+    font-size: 3rem;
+    color: brown;
 }
 
 .navigation .nav-pills {
