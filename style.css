@@ -7,7 +7,8 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+
     margin: 0px;
 }
 
@@ -15,16 +16,31 @@ hr {
     margin: 2rem 0rem;
 }
 
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    line-height: 2;
+    word-spacing: 0.6px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Acme', sans-serif;
+    font-size: xx-large;
+}
+
 /* containers */
 .container {
     padding: 0rem 1rem;
-    border: 1px solid #818CF8;
+    border: 3px solid #818CF8;
     border-radius: 1.5rem;
     box-sizing: border-box;
+    background-color: #ecf0f5;
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 650px;
     margin: auto;
 }
 
@@ -52,9 +68,11 @@ hr {
     color: var(--primary-color);
     padding: 0.8rem;
     margin-left: 5px;
+    background-color: white;
 
 }
-.link-secondary:hover{
+
+.link-secondary:hover {
     padding: 0.85rem;
     color: black;
     font-weight: bold;
@@ -104,7 +122,9 @@ hr {
 
 .navigation .Link {
     color: white;
+    font-size: 1.2rem;
 }
+
 
 /* header */
 
@@ -124,10 +144,15 @@ hr {
     margin: auto;
 }
 
+.hero .hero-project-img {
+    max-width: 450px;
+}
+
 .hero .hero-heading {
     color: var(--dark-gray);
     padding-top: 2rem;
     text-align: center;
+    font-size: 2.5rem;
 }
 
 /* .hero .heading-inverted {
